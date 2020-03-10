@@ -1,0 +1,28 @@
+body{
+    margin:0;
+}
+
+.menu-superior{
+    margin: 0px;
+    background: black;
+    color: white;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.menu-superior li{
+    width: 170px;
+    height: 50px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+
+.menu-superior li:hover{
+    background-color: rgb(233,78,22);
+    text-decoration: underline;
+
+}

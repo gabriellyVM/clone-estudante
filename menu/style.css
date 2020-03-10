@@ -1,0 +1,24 @@
+body{
+    margin:0;
+}
+
+.menu-superior{
+    margin: 0px;
+    display: flex;
+    background: black;
+    color: white;
+    height: 30px;
+}
+.menu-superior li{
+    width: 150px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+
+.menu-superior li:hover{
+    background-color: rgb(233,78,22);
+    text-decoration: underline;
+
+}
