@@ -1,0 +1,68 @@
+body{
+    margin:0;
+}
+
+.menu-superior{
+    margin: 0px;
+    display: flex;
+    background: rgb(255, 123, 0);
+    color: white;
+    height: 60px;
+}
+.menu-superior li{
+    width: 150px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.menu-superior li:hover{
+    background-color: rgb(255,114,18);
+   
+
+}
+#info{
+    font-size: 12px;
+    width: 195px;
+    height: 30px;
+    margin: auto;
+}
+#caixa{
+    height: 30px;
+    width: 180px;
+    margin: 10px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px; 
+}
+#logo{
+    width: 120px;
+    height: 40px;
+    background: url('./Capturar.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.orelha{
+
+}
+#fundo{
+    background-color: rgb(37, 169, 252);
+    height: 350px;
+    width: 350px;
+    display: flex;
+}
+.cabeça{
+    width: 180px;
+    height: 180px;
+    background: rgb(166, 190, 207);
+    margin: auto;
+    border-top: 6px solid rgb(221,159,112);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
